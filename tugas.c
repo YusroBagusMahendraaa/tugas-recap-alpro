@@ -53,7 +53,7 @@ int main() {
                 printf("\nSaya telah memilih bilangan baru. Ayo bermain lagi!\n");
             } else {
                 printf("Terima kasih telah bermain. Selamat tinggal!\n");
-                break // Keluar dari perulangan
+                break; // Keluar dari perulangan
             }
         }
     } while (tebakan != bilanganTarget);
